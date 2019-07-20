@@ -10,6 +10,7 @@ Here is the initial list of folder for this repository:
 
 ```markdown
 - Git setup
+- Java Setup
 - AWS setup
 - ssh connections for hosts used.
 ```
