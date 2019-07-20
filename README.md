@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## UCSC - Apache Spark with Scal - Introduction
 
-You can use the [editor on GitHub](https://github.com/marilsoncampos/ucsc_class/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This the repository to capture the projects for the Apache Spark with Scala course at UCSC.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We are going to create folders for specific tasks and also sub-projects.
 
-### Markdown
+### Summary
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Here is the initial list of folder for this repository:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- Git setup
+- AWS setup
+- ssh connections for hosts used.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Notes
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/marilsoncampos/ucsc_class/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For the students, please add comments to every change you push into this repo.
