@@ -1,0 +1,8 @@
+#!/bin/bash -x
+
+THE_JAR=$(ls -1t *.jar | head -n 1)
+MAIN_CLASS='MainApp'
+INPUT_DIR='s3://ucsc-warehouse/input_path/ratings/'
+OUTPUT_DIR='s3://ucsc-warehouse/output_path/abc/'
+spark-submit --class ${MAIN_CLASS} ${THE_JAR} --input $INPUT_DIR --output $OUTPUT_DIR
+
