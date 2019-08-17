@@ -37,7 +37,6 @@ banner "Uploading jar file"
 
 PKG_PATH=$(ls target/scala-2.11/*.jar)
 PKG_FILE=$(echo $PKG_PATH | cut -d'/' -f 3)
-RUN_FILE='run_job'
 
 echo $PKG_PATH
 echo $PKG_FILE
@@ -45,8 +44,9 @@ echo $PKG_FILE
 ssh ${HOST_NAME} mkdir -p /srv/${DEV_NAME}/${PROJ_NAME}
 deploy_file ${PKG_PATH} ${PKG_FILE}
 
-banner "Uploading 'run_job' script ..."
-deploy_file ${RUN_FILE} ${RUN_FILE}
+banner "Uploading scripts ..."
+deploy_file run_job run_job
+deploy_file remove_target remove_target
 
 mini_banner "Deployment complete"
 
