@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+ssh ucsc "cd /home/ec2-user/repo/ucsc_class/proj_filter && git pull && ./deploy"
+
+
