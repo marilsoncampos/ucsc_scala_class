@@ -1,0 +1,4 @@
+#!/bin/bash
+
+aws s3 rm s3://ucsc-warehouse/output_path/abc/*
+
