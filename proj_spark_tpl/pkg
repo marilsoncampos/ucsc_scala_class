@@ -1,0 +1,25 @@
+#!/bin/bash -x
+
+HOST_NAME='spa'
+DEV_NAME='marilsonc'
+
+echo "Cleaning target..."
+sbt clean
+echo "."
+
+echo "Assembling the jar file..." 
+sbt assembly
+echo "."
+
+echo "Uploading the package to cluster..."
+
+PKG_PATH=$(ls target/scala-2.11/*.jar)
+PKG_FILE=$(echo $PKG_PATH | cut -d'/' -f 3)
+
+echo $PKG_PATH
+echo $PKG_FILE
+
+scp ${PKG_PATH} ${HOST_NAME}:/srv/${DEV_NAME}/${PKG_FILE}
+
+
+
