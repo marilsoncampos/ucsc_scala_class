@@ -1,4 +1,4 @@
-## UCSC - Apache Spark with Scal - Introduction
+## UCSC - Apache Spark with Scala - Introduction
 
 This the repository to capture the projects for the Apache Spark with Scala course at UCSC.
 
