@@ -1,6 +1,6 @@
 ## UCSC - Apache Spark with Scala - Introduction
 
-This the repository to capture the projects for the Apache Spark with Scala course at UCSC.
+This the repository to capture the material for the Apache Spark with Scala course at UCSC.
 
 We are going to create folders for specific tasks and also sub-projects.
 
