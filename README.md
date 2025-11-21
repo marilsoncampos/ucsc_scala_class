@@ -17,3 +17,6 @@ Here is the initial list of folder for this repository:
 ```
 
 ### Notes
+
+Additional documentation, sample code, and assignments will be added regularly.  
+Feel free to open issues or submit pull requests as you progress through the course.
