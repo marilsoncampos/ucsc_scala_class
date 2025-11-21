@@ -1,6 +1,6 @@
 ## UCSC - Apache Spark with Scala - Introduction
 
-This the repository contains Marilson Campos Apache Spark with Scala course at UCSC.
+This the repository contains Marilson Campos __Apache Spark with Scala__ course at UC Santa Cruz.
 
 We are going to create folders for specific tasks and also sub-projects.
 
